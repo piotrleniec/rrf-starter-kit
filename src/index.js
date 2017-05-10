@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import DevTools from './components/DevTools'
 import store from './store'
-import App from './components/App'
+import Routes from './components/Routes'
 import './index.css'
 
 ReactDOM.render(
   <Provider store={store}>
     <div>
-      <App />
+      <Routes />
       <DevTools />
     </div>
   </Provider>,
@@ -17,13 +17,13 @@ ReactDOM.render(
 )
 
 if (module.hot) {
-  module.hot.accept('./components/App', () => {
-    const NextApp = require('./components/App').default
+  module.hot.accept('./components/Routes', () => {
+    const NextRoutes = require('./components/Routes').default
 
     ReactDOM.render(
       <Provider store={store}>
         <div>
-          <NextApp />
+          <NextRoutes />
           <DevTools />
         </div>
       </Provider>,
