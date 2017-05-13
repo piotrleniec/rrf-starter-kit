@@ -1,6 +1,6 @@
 # RRF Starter Kit
 
-## Installation
+### Installation
 
 1. Make sure you have [yarn](https://yarnpkg.com/en/docs/install) installed.
 2. Fork the repository.
@@ -13,13 +13,13 @@ git clone https://github.com/YOUR_USERNAME/rrf-starter-kit.git
 yarn
 ```
 
-## Development
+### Development
 
 ```
 yarn start
 ```
 
-## Deployment
+### Deployment
 
 1. Put your firebase project ID in `.firebaserc`.
 2. Put your firebase config in `src/firebase/config.js`.
@@ -31,3 +31,14 @@ firebase login
 ```
 yarn deploy
 ```
+
+### Preconfigured libraries
+
+- [react](https://github.com/facebook/react)
+- [redux](https://github.com/reactjs/redux) (with [react-redux](https://github.com/reactjs/react-redux))
+- [redux-devtools](https://github.com/gaearon/redux-devtools)
+- [redux-thunk](https://github.com/gaearon/redux-thunk)
+- [react-router](https://github.com/ReactTraining/react-router)
+- [react-router-redux](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-redux)
+- [firebase](https://www.npmjs.com/package/firebase)
+- [redux-form](https://github.com/erikras/redux-form)
