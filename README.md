@@ -21,13 +21,14 @@ yarn start
 
 ### Deployment
 
-1. Put your firebase project ID in `.firebaserc`.
-2. Put your firebase config in `src/firebase/config.js`.
-3. Login to firebase.
+1. Make sure you have [firebase-tools](https://github.com/firebase/firebase-tools) installed.
+2. Put your firebase project ID in `.firebaserc`.
+3. Put your firebase config in `src/firebase/config.js`.
+4. Login to firebase.
 ```
 firebase login
 ```
-4. Deploy your code.
+5. Deploy your code.
 ```
 yarn deploy
 ```
