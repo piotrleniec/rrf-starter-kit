@@ -1,8 +1,8 @@
 export default {
-  apiKey: "AIzaSyC_6v15YelQVcgF7efClu5GdZxIMWmY978",
-  authDomain: "rrf-workshop.firebaseapp.com",
-  databaseURL: "https://rrf-workshop.firebaseio.com",
-  projectId: "rrf-workshop",
-  storageBucket: "rrf-workshop.appspot.com",
-  messagingSenderId: "473931518056"
+  apiKey: "AIzaSyBUtWMlgA5J5BZ3LABdHDXu2_T_gFDT15E",
+  authDomain: "apka-8fabd.firebaseapp.com",
+  databaseURL: "https://apka-8fabd.firebaseio.com",
+  projectId: "apka-8fabd",
+  storageBucket: "apka-8fabd.appspot.com",
+  messagingSenderId: "723976773657"
 }
